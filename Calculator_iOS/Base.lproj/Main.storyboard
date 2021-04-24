@@ -22,7 +22,32 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-et-CHo">
                                 <rect key="frame" x="0.0" y="44" width="414" height="238"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvp-Aw-PCf">
+                                        <rect key="frame" x="10" y="10" width="394" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMN-Nj-0lL">
+                                        <rect key="frame" x="10" y="59" width="394" height="179"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstItem="Uvp-Aw-PCf" firstAttribute="leading" secondItem="4ph-et-CHo" secondAttribute="leading" constant="10" id="1tY-zn-5Qn"/>
+                                    <constraint firstItem="DMN-Nj-0lL" firstAttribute="leading" secondItem="4ph-et-CHo" secondAttribute="leading" constant="10" id="9Ac-O5-9ZO"/>
+                                    <constraint firstAttribute="bottom" secondItem="DMN-Nj-0lL" secondAttribute="bottom" id="Akx-Ml-vzi"/>
+                                    <constraint firstAttribute="trailing" secondItem="DMN-Nj-0lL" secondAttribute="trailing" constant="10" id="X6p-HE-rAa"/>
+                                    <constraint firstAttribute="trailing" secondItem="Uvp-Aw-PCf" secondAttribute="trailing" constant="10" id="efj-qi-EbS"/>
+                                    <constraint firstItem="Uvp-Aw-PCf" firstAttribute="top" secondItem="4ph-et-CHo" secondAttribute="top" constant="10" id="i5k-Nl-O1d"/>
+                                    <constraint firstItem="DMN-Nj-0lL" firstAttribute="top" secondItem="Uvp-Aw-PCf" secondAttribute="bottom" constant="10" id="wGp-8d-jCK"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -30,6 +55,7 @@
                         <constraints>
                             <constraint firstItem="H5i-iD-Naz" firstAttribute="top" secondItem="4ph-et-CHo" secondAttribute="bottom" constant="10" id="0QS-YC-ZDJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H5i-iD-Naz" secondAttribute="bottom" constant="10" id="0gg-aV-zLV"/>
+                            <constraint firstItem="DMN-Nj-0lL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="8Sb-xd-Fel"/>
                             <constraint firstItem="H5i-iD-Naz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.625" id="9zj-PT-LLd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4ph-et-CHo" secondAttribute="trailing" id="G6W-mi-hHT"/>
                             <constraint firstItem="H5i-iD-Naz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="MUE-G2-Rps"/>
@@ -53,6 +79,9 @@
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

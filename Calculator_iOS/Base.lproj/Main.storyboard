@@ -18,27 +18,125 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5i-iD-Naz">
                                 <rect key="frame" x="10" y="292" width="394" height="560"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-v8-ryb">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="560"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0Vj-wb-gTW">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="104"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aH6-oz-Ega">
+                                                        <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plusminus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ab8-vY-Tvn">
+                                                        <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="U34-2h-cjQ">
+                                                        <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="divide.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-tc-BUL">
+                                                        <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-si-Ge6">
+                                                <rect key="frame" x="0.0" y="114" width="394" height="104"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="7.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ikN-Hl-2qD">
+                                                        <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="8.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oIr-HW-Alu">
+                                                        <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="9.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0nB-YH-lq0">
+                                                        <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="multiply.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JNF-dG-G4o">
+                                                        <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0Zn-52-wnF">
+                                                <rect key="frame" x="0.0" y="228" width="394" height="104"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="4.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Hkn-4W-h8H">
+                                                        <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="5.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ylj-Q7-m0F">
+                                                        <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="6.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QJS-FM-l4s">
+                                                        <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="minus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a07-Iu-Ies">
+                                                        <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c8k-eq-Kr3">
+                                                <rect key="frame" x="0.0" y="342" width="394" height="104"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="1.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iE9-bh-Q7g">
+                                                        <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="2.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V6k-Y9-Qlp">
+                                                        <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="3.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="L1x-3q-HWt">
+                                                        <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7sH-lH-NHa">
+                                                        <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IFV-Z4-zCB">
+                                                <rect key="frame" x="0.0" y="456" width="394" height="104"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="0.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ScV-tt-d7T">
+                                                        <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ctt-11-3e5">
+                                                        <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="arrow.backward.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="shw-BR-Brw">
+                                                        <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="equal.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-lU-aVT">
+                                                        <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Fl0-v8-ryb" secondAttribute="bottom" id="0zf-PB-MFb"/>
+                                    <constraint firstItem="Fl0-v8-ryb" firstAttribute="leading" secondItem="H5i-iD-Naz" secondAttribute="leading" id="8Jl-qW-lqC"/>
+                                    <constraint firstItem="Fl0-v8-ryb" firstAttribute="top" secondItem="H5i-iD-Naz" secondAttribute="top" id="hKC-aB-AD6"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fl0-v8-ryb" secondAttribute="trailing" id="odi-Af-2bK"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-et-CHo">
                                 <rect key="frame" x="0.0" y="44" width="414" height="238"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvp-Aw-PCf">
                                         <rect key="frame" x="10" y="10" width="394" height="39"/>
-                                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.12549019607843137" green="0.062745098039215685" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMN-Nj-0lL">
                                         <rect key="frame" x="10" y="59" width="394" height="179"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <color key="backgroundColor" red="1" green="0.99215686274509807" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="Uvp-Aw-PCf" firstAttribute="leading" secondItem="4ph-et-CHo" secondAttribute="leading" constant="10" id="1tY-zn-5Qn"/>
                                     <constraint firstItem="DMN-Nj-0lL" firstAttribute="leading" secondItem="4ph-et-CHo" secondAttribute="leading" constant="10" id="9Ac-O5-9ZO"/>
@@ -71,14 +169,26 @@
         </scene>
     </scenes>
     <resources>
+        <image name="0.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="2.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="4.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="5.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="6.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="7.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="8.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="9.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="arrow.backward.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="divide.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="equal.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="minus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="multiply.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="plusminus.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

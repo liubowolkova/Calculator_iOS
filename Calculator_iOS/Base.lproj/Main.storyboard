@@ -27,15 +27,19 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aH6-oz-Ega">
                                                         <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.52941176470588236" green="0.44313725490196076" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plusminus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ab8-vY-Tvn">
                                                         <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.52941176469999995" green="0.4431372549" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="U34-2h-cjQ">
                                                         <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.52941176469999995" green="0.4431372549" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="divide.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-tc-BUL">
                                                         <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.89411764709999997" green="0.2470588235" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -44,15 +48,19 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="7.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ikN-Hl-2qD">
                                                         <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450980389" green="0.30588235294117649" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="8.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oIr-HW-Alu">
                                                         <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="9.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0nB-YH-lq0">
                                                         <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="multiply.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JNF-dG-G4o">
                                                         <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.89411764709999997" green="0.2470588235" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -61,15 +69,19 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="4.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Hkn-4W-h8H">
                                                         <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="5.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ylj-Q7-m0F">
                                                         <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="6.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QJS-FM-l4s">
                                                         <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="minus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a07-Iu-Ies">
                                                         <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.89411764709999997" green="0.2470588235" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -78,15 +90,19 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="1.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iE9-bh-Q7g">
                                                         <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="2.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V6k-Y9-Qlp">
                                                         <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="3.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="L1x-3q-HWt">
                                                         <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plus.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7sH-lH-NHa">
                                                         <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.89411764705882346" green="0.24705882352941178" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -95,15 +111,19 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="0.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ScV-tt-d7T">
                                                         <rect key="frame" x="0.0" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ctt-11-3e5">
                                                         <rect key="frame" x="101" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="arrow.backward.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="shw-BR-Brw">
                                                         <rect key="frame" x="202" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.41568627450000001" green="0.30588235289999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="equal.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-lU-aVT">
                                                         <rect key="frame" x="303" y="0.5" width="91" height="103"/>
+                                                        <color key="tintColor" red="0.89411764705882346" green="0.24705882352941178" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -130,7 +150,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMN-Nj-0lL">
                                         <rect key="frame" x="10" y="59" width="394" height="179"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <color key="backgroundColor" red="0.74901960784313726" green="0.74509803921568629" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -189,9 +209,6 @@
         <image name="plusminus.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
